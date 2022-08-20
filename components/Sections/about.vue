@@ -1,9 +1,9 @@
 <template>
-  <section id="about">
+  <section id="about" class="md:mx-auto">
     <div class="hero min-h-screen">
       <div class="hero-content flex-col lg:flex-row-reverse">
         <div>
-          <h1 class="text-4xl max-w-[466px]">
+          <h1 class="text-4xl lg:max-w-[466px] font-semibold">
             Find Out A Little More About Us
           </h1>
           <p class="py-6 max-w-[394px]">
@@ -14,17 +14,17 @@
         </div>
         <img
           src="/delivery_man_holding_box.svg"
-          class="max-w-[675.3px] rounded-lg mr-2"
+          class="w-full md:max-w-[675.3px] rounded-lg mr-2"
         />
       </div>
     </div>
     <div class="hero-content flex-col lg:flex-row-reverse">
       <img
         src="/delivery_man_successful_delivery.svg"
-        class="max-w-[675.3px] rounded-lg ml-2"
+        class="w-full md:max-w-[675.3px] rounded-lg ml-2 order-2 md:order-1"
       />
-      <div>
-        <h1 class="text-4xl max-w-[466px]">Your Safety Is Important</h1>
+      <div class="order-1 md:order-2">
+        <h1 class="text-4xl max-w-[466px] font-semibold">Your Safety Is Important</h1>
         <p class="py-6 max-w-[394px]">
           When your order reaches you, we have the health safety protocols, so
           that you are protected from any disease. Watch the video of how the

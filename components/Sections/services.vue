@@ -30,19 +30,19 @@ export default {
 </script>
 
 <template>
-  <section id="services">
+  <section id="services" class="mt-6">
     <h1 class="text-center font-bold text-3xl">Some Services We Offer</h1>
-    <div class="flex justify-center">
+    <div class="flex flex-col md:flex-row justify-center">
       <card
         v-for="info in card_content"
         :key="info.id"
         :title="info.card_title"
         :description="info.card_description"
         :image-path="info.card_image_path"
-        class="m-2"
+        class="mx-auto md:m-2"
       />
     </div>
-    <div class="hero-content flex-col lg:flex-row-reverse mt-12">
+    <div class="hero-content flex-col lg:flex-row-reverse mt-12 mx-auto">
       <div>
         <h1 class="text-4xl font-bold max-w-[466px]">
           Watch Your Delivery At Any Time

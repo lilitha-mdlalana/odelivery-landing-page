@@ -18,6 +18,10 @@ module.exports = {
       },
       animation: {
         fadeIn:'fadeIn 1s ease-in'
+      },
+      fontFamily: {
+        poppins: ['Poppins', 'sans-serif'],
+        
       }
     },
   },
