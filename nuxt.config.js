@@ -38,7 +38,7 @@ export default {
       {
         hid: "twitter:image",
         name: "twitter:image",
-        content: 'https://odelivery.netlify.app/Img.svg'
+        content: '/Img.svg'
       },
       {
         hid: "twitter:image:alt",
@@ -79,7 +79,7 @@ export default {
       {
         hid: "og:image",
         name: "og:image",
-        content:'https://odelivery.netlify.app/Img.svg'
+        content:'/Img.svg'
       },
     ],
     link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],
