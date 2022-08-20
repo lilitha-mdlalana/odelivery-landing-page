@@ -54,7 +54,7 @@ export default {
         <button class="btn btn-primary rounded-xl">Apple Store</button>
         <button class="btn btn-primary rounded-xl">Google Play</button>
       </div>
-      <img src="/app_download.svg" class="max-w-[871px] rounded-lg" />
+      <img src="/app_download.svg" class="w-full lg:max-w-[871px] rounded-lg" />
     </div>
   </section>
 </template>
