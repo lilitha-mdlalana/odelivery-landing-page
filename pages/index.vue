@@ -3,6 +3,7 @@
   <sections-hero/>
   <sections-about/>
   <sections-services/>
+  <sections-footer/>
 </main>
   
 </template>
