@@ -1,5 +1,5 @@
 <template>
-  <section class="hero min-h-screen">
+  <section class="hero min-h-screen -mb-6">
     <div class="hero-content flex-col lg:flex-row-reverse">
       <img src="/Img.svg" class="w-full lg:max-w-[871px] rounded-lg" />
       <div>

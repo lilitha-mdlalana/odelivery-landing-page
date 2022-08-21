@@ -30,16 +30,16 @@ export default {
 </script>
 
 <template>
-  <section id="services" class="mt-6">
+  <section id="services" class="my-6">
     <h1 class="text-center font-bold text-3xl">Some Services We Offer</h1>
-    <div class="flex flex-col md:flex-row justify-center">
+    <div class="flex flex-col md:flex-row justify-center first-child:mt-6">
       <card
         v-for="info in card_content"
         :key="info.id"
         :title="info.card_title"
         :description="info.card_description"
         :image-path="info.card_image_path"
-        class="mx-auto md:m-2"
+        class="mx-auto my-2 md:m-2"
       />
     </div>
     <div class="hero-content flex-col lg:flex-row-reverse mt-12 mx-auto">
@@ -54,7 +54,7 @@ export default {
         <button class="btn btn-primary rounded-xl">Apple Store</button>
         <button class="btn btn-primary rounded-xl">Google Play</button>
       </div>
-      <img src="/app_download.svg" class="w-full lg:max-w-[871px] rounded-lg" />
+      <img src="/app_download.svg" class="mt-3 w-full lg:max-w-[871px] rounded-lg" />
     </div>
   </section>
 </template>
